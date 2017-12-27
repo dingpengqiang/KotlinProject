@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="title_list">
+        <item>推荐</item>
+        <item>当地</item>
+        <item>科技</item>
+        <item>旅游</item>
+        <item>电影</item>
+        <item>图片</item>
+        <item>军事</item>
+        <item>社会</item>
+        <item>历史</item>
+        <item>游戏</item>
+    </string-array>
+</resources>

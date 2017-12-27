@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<FrameLayout-->
+        <!--android:id="@+id/main_frame"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_marginBottom="56dp"/>-->
+
+    <!--<com.github.mmin18.widget.RealtimeBlurView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="56dp"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--android:background="#CCFFFFFF"-->
+        <!--app:realtimeBlurRadius="20dp"-->
+        <!--app:realtimeOverlayColor="#8000"/>-->
+
+    <!--<android.support.design.widget.BottomNavigationView-->
+        <!--android:id="@+id/main_navigation"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="56dp"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--app:itemBackground="@android:color/transparent"-->
+        <!--app:itemIconTint="@drawable/main_btm_text_color"-->
+        <!--app:itemTextColor="@drawable/main_btm_text_color"-->
+        <!--app:menu="@menu/main_bottom_navigation"/>-->
+</FrameLayout>

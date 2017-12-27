@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <FrameLayout
+        android:id="@+id/main_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_above="@+id/main_navigation"
+        android:background="#F2f2f2" />
+
+
+    <com.github.mmin18.widget.RealtimeBlurView
+        android:id="@+id/blur_view"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:background="#CCFFFFFF"
+        app:realtimeBlurRadius="10dp"
+        />
+    <!--如果布局上需要添加空间，把它放在最下层，这样背景就是虚化的了。-->
+    <!--realtimeBlurRadius这个自定义属性代表虚化程度 50 最高，0 最低-->
+    <!--realtimeOverlayColor这个属性不变就ok了，是一个8透明度的透明色-->
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/main_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@android:color/transparent"
+        app:itemIconTint="@drawable/main_btm_text_color"
+        app:itemTextColor="@drawable/main_btm_text_color"
+        app:menu="@menu/main_bottom_navigation"/>
+
+
+</RelativeLayout>
